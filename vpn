@@ -1,5 +1,5 @@
 {
-  "server": "panel.yangon.website",
+  "server": "136.111.173.42",
   "server_port": 443,
   "password": "7Zag3B9FnY",
   "method": "chacha20-ietf-poly1305",
