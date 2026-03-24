@@ -3,6 +3,5 @@
   "server_port": 443,
   "password": "your-3xui-password",
   "method": "chacha20-ietf-poly1305",
-  "plugin": "v2ray-plugin",
-  "plugin_opts": "tls;host=vpn.yangon.website;path=/my-secret-path"
+  "prefix": "\u0016\u0003\u0001\u0000\u00a8\u0001\u0001"
 }
