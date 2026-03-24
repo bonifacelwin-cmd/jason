@@ -1,8 +1,8 @@
 {
-  "server": "panel.yangon.website",
+  "server": "vpn.yangon.website",
   "server_port": 443,
-  "password": "7Zag3B9FnY",
+  "password": "your-3xui-password",
   "method": "chacha20-ietf-poly1305",
   "plugin": "v2ray-plugin",
-  "plugin_opts": "tls;host=panel.yangon.website;path=/vpn-path-here"
+  "plugin_opts": "tls;host=vpn.yangon.website;path=/my-secret-path"
 }
