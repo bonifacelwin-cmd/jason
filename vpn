@@ -1,7 +1,8 @@
 {
-  "server": "136.111.173.42",
+  "server": "panel.yangon.website",
   "server_port": 443,
   "password": "7Zag3B9FnY",
   "method": "chacha20-ietf-poly1305",
-  "prefix": "\u0016\u0003\u0001\u0000\u00a8\u0001\u0001"
+  "plugin": "v2ray-plugin",
+  "plugin_opts": "tls;host=panel.yangon.website;path=/vpn-path-here"
 }
