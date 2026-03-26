@@ -1,8 +1,23 @@
 {
-  "server": "vpn.yangon.website",
-  "server_port": 443,
-  "password": "your-3xui-password",
-  "method": "chacha20-ietf-poly1305",
-  "plugin": "v2ray-plugin",
-  "plugin_opts": "tls;host=vpn.yangon.website;path=/my-secret-path"
+  "transport": {
+    "$type": "tcpudp",
+    "tcp": {
+      "$type": "shadowsocks",
+      "endpoint": {
+        "$type": "websocket",
+        "url": "wss://vpn.yangon.website/my-secret-path"
+      },
+      "cipher": "chacha20-ietf-poly1305",
+      "secret": "your-3xui-password"
+    },
+    "udp": {
+      "$type": "shadowsocks",
+      "endpoint": {
+        "$type": "websocket",
+        "url": "wss://vpn.yangon.website/my-secret-path"
+      },
+      "cipher": "chacha20-ietf-poly1305",
+      "secret": "your-3xui-password"
+    }
+  }
 }
