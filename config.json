@@ -1,5 +1,5 @@
 {
-  "server": "vpn.yangon.website",
+  "server": "35.238.135.138",
   "server_port": 443,
   "password": "STadmin@123",
   "method": "chacha20-ietf-poly1305",
